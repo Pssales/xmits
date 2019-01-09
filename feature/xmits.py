@@ -19,25 +19,25 @@ def extract_key_words(sentence, diagram_word):
     result_intersection = {'noun': {}, 'article': {}, 'adverb': {}, 'verb': {},'pronoun': {}, 'preposition': {}, 'adjective': {}}
 
 
-    with open('punctuation.txt', 'r') as f:
+    with open('extraction/punctuation.txt', 'r') as f:
         punctuation = f.read().split('\n')
 
-    with open('article.txt', 'r', encoding = 'utf8') as f:
+    with open('extraction/article.txt', 'r', encoding = 'utf8') as f:
         article = f.read().split('\n')
 
-    with open('verb.txt', 'r', encoding = 'utf8') as f:
+    with open('extraction/verb.txt', 'r', encoding = 'utf8') as f:
         verb = f.read().split('\n')
 
-    with open('adjective.txt', 'r', encoding = 'utf8') as f:
+    with open('extraction/adjective.txt', 'r', encoding = 'utf8') as f:
         adjective = f.read().split('\n')
 
-    with open('adverb.txt', 'r', encoding = 'utf8') as f:
+    with open('extraction/adverb.txt', 'r', encoding = 'utf8') as f:
         adverb = f.read().split('\n')
 
-    with open('pronoun.txt', 'r', encoding = 'utf8') as f:
+    with open('extraction/pronoun.txt', 'r', encoding = 'utf8') as f:
         pronoun = f.read().split('\n')
 
-    with open('preposition.txt', 'r', encoding = 'utf8') as f:
+    with open('extraction/preposition.txt', 'r', encoding = 'utf8') as f:
         preposition = f.read().split('\n')
 
     for sentence in sentences:
