@@ -1,0 +1,6 @@
+2 - Incompletude Total DC1
+3 - Inconsistência (incorreção) DC2
+4 - Inconsistência (incorreção) DC3
+5 - Inconsistência (informação extra) DC4
+6 - Má compreensão DC5
+7 - Má compreensão DC6
